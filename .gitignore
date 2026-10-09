@@ -1,0 +1,31 @@
+# Gradle / build output
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Kotlin
+.kotlin/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing keys (never commit these)
+*.jks
+*.keystore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude Code: local-only files
+.claude/settings.local.json
+
+# CodeGraph: local index
+.codegraph/
+.codegraph-*/
